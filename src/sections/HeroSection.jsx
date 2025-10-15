@@ -68,18 +68,18 @@ const HeroSection = () => {
           <>
             {isMobile && (
               <img
-                src="/images/hero-bg.png"
+                src="images/hero-bg.png"
                 className="absolute bottom-40 size-full object-cover"
               />
             )}
             <img
-              src="/images/hero-img.png"
+              src="images/hero-img.png"
               className="absolute bottom-0 left-1/2 -translate-x-1/2 object-auto"
             />
           </>
         ) : (
           <video
-            src="/videos/hero-bg.mp4"
+            src="videos/hero-bg.mp4"
             autoPlay
             muted
             playsInline
@@ -106,7 +106,7 @@ const HeroSection = () => {
             your inner kid with every deliciously smooth chug.
           </h2>
 
-          <div className="hero-button">
+          <div className="hero-button cursor-pointer">
             <p>Chug a SPYLT</p>
           </div>
         </div>
